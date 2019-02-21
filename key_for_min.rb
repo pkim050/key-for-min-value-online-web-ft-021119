@@ -14,6 +14,7 @@ def key_for_min_value(name_hash)
       answer = key
     end
     count += 1
+    binding.pry
   end
   answer
 end
